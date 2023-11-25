@@ -60,9 +60,9 @@ class VertexCoverApproximatingComputer(Computer):
             case (None, None):
                 pass
             case ("unmatched", "unmatched"):
-                self.output = f"{0} (not in the cover)"
+                self.output = "0 (not in the cover)"
             case _:
-                self.output = f"{1} (part of the cover)"
+                self.output = "1 (part of the cover)"
 
 
 if __name__ == "__main__":
